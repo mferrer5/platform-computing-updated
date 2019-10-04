@@ -15,6 +15,8 @@ public class WeightedGraphTester {
 		graph.addEdge("San Francisco", "Denver", 1300);
 		graph.addEdge("Chicago", "San Francisco", 1700);
 	
+		
+		//CHANGES!
 		//where can I fly from Denver?
 		//gettoVertices
 		Queue<String> denverFlights= graph.getToVertices("Denver");
