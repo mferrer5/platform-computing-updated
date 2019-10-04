@@ -20,7 +20,7 @@ public class WeightedGraphTester {
 		Queue<String> denverFlights= graph.getToVertices("Denver");
 		System.out.println("From Denver, you can fly to: "
 		+denverFlights);
-		
+		//changes! :)
 		//how far is flight from SF to Denver?
 		//weightIs
 		System.out.println("Distance from San Francisco to Denver is: " +
